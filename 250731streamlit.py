@@ -54,7 +54,7 @@ with col2:
           image2=Image.open('./data250731re/IMG241103-11-02.jpg') 
           image3=Image.open('./data250731re/IMG241103-11-03.jpg') 
           image4=Image.open('./data250731re/IMG241103-11-04.jpg') 
-          
+          name=(
           
         if n==1 :
           image1=Image.open('./data250731re/IMG241103-11-05.jpg')
@@ -87,3 +87,9 @@ with col2:
         st.image(image2,width=400)
         st.image(image3,width=400)
         st.image(image4,width=400)
+        
+        
+        name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
+
+        st.text(f'{name}')
+
