@@ -41,7 +41,7 @@ with col1:
         
 with col2:    
         
-        submit_btn=st.form_submit_button (f'切替: {n}')
+        submit_btn=st.form_submit_button (f'切替')
         if submit_btn:
             n=n+1
             st.text(f'切替完 n=',n)
