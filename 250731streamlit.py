@@ -47,7 +47,7 @@ with col2:
         
         if submit_btn:
             n=n+1
-            st.text(f'切替完 n=',n)
+            st.text(f'切替完 n= {n}')
             if 4<n :
                n=0
                
