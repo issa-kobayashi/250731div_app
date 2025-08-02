@@ -3,7 +3,7 @@ from PIL import Image
 # imageﾊpip install pillowｶﾞ必要 pil
 import time
 import datetime
-
+n=0
 
 st.title('250731streamlit')
 st.caption('町内の為のホームページです｡')
