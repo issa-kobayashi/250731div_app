@@ -3,10 +3,14 @@ from PIL import Image
 # imageﾊpip install pillowｶﾞ必要 pil
 import time
 import datetime
-n=0
+n=int(0)
 x=int(0)
 #x=int(4)
 y=int(0)
+
+global x
+global y
+global n 
 
 st.title('250731streamlit')
 st.caption('町内の為のホームページです｡')
@@ -27,7 +31,8 @@ with col1:
         
    def step_one():
      global x
-     global y 
+     global y
+     global n 
      #print(f'def step one ｽﾃｯﾌﾟ1の処理 y= x=: {(y),(x)}')
      time.sleep(1)
 
