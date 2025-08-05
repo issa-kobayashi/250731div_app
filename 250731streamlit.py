@@ -27,7 +27,7 @@ with col1:
    st.text('みずき野は田んぼに囲まれたとても静かな街です｡')
    st.write('かがた公園')
         
-   def step_one():
+   def step-one():
      global x
      global y
      global n 
@@ -84,8 +84,8 @@ with col1:
             st.text(f'切替番号 n= {n}')
             if 4<n :
                n=0
-   process=step_one()
-   #step_one():  
+   #process=step-one()
+   step-one()  
         #mainp=main_process() #関数 def =することで実行される
    
    st.text(f'{name}')     
