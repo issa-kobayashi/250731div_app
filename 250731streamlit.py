@@ -41,6 +41,7 @@ with col1:
           image3=Image.open('./data250731re/IMG241103-11-03.jpg') 
           image4=Image.open('./data250731re/IMG241103-11-04.jpg') 
           name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
+          st.text(f'n= {n}')
           
      if n==1 :
           image1=Image.open('./data250731re/IMG241103-11-05.jpg')
@@ -48,6 +49,7 @@ with col1:
           image3=Image.open('./data250731re/IMG241103-12-07.jpg') 
           image4=Image.open('./data250731re/IMG241103-12-08.jpg') 
           name='IMG241103-11-05','IMG241103-11-06','IMG241103-11-07','IMG241103-11-08'
+          st.text(f'n= {n}')
           
      if n==2 :
           image1=Image.open('./data250731re/IMG250212-09-01.jpg')
@@ -55,13 +57,15 @@ with col1:
           image3=Image.open('./data250731re/IMG250212-09-03.jpg') 
           image4=Image.open('./data250731re/IMG250302-14-01.jpg')     
           name='IMG250212-09-01','IMG250212-09-02','IMG250212-09-03','IMG250302-14-01'
-         
+          st.text(f'n= {n}')
+          
      if n==3 :
           image1=Image.open('./data250731re/IMG250302-09-01.jpg')
           image2=Image.open('./data250731re/IMG250514-09-02.jpg') 
           image3=Image.open('./data250731re/IMG250514-09-03.jpg') 
           image4=Image.open('./data250731re/IMG250514-13-01.jpg')  
           name='IMG250302-09-01','IMG250514-09-02','IMG250514-09-03','IMG250514-13-01'
+	      st.text(f'n= {n}')
 	          
      if n==4 :
           image1=Image.open('./data250731re/IMG250514-13-02.jpg')
@@ -69,7 +73,7 @@ with col1:
           image3=Image.open('./data250731re/IMG250514-14-04.jpg') 
           image4=Image.open('./data250731re/IMG250514-14-05.jpg')   
           name='IMG250514-13-02','IMG250514-13-03','IMG250514-14-04','IMG250514-14-05'
-    
+          st.text(f'n= {n}')
      return 
    
 
