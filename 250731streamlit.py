@@ -69,7 +69,8 @@ with col1:
           image3=Image.open('./data250731re/IMG250514-14-04.jpg') 
           image4=Image.open('./data250731re/IMG250514-14-05.jpg')   
           name='IMG250514-13-02','IMG250514-13-03','IMG250514-14-04','IMG250514-14-05'
-     return 
+     st.text(f'{name}')
+   return 
         
    st.image(image1,width=400)
    st.image(image2,width=400)
