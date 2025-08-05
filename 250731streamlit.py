@@ -84,10 +84,10 @@ with col1:
             st.text(f'切替番号 n= {n}')
             if 4<n :
                n=0
-   #process=step-one()
+   #process=step1one()
    step1one()  
         #mainp=main_process() #関数 def =することで実行される
-   
+   st.text(f'n= {n}')
    st.text(f'{name}')     
    st.image(image1,width=400)
    st.image(image2,width=400)
