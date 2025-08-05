@@ -27,7 +27,7 @@ with col1:
    st.text('みずき野は田んぼに囲まれたとても静かな街です｡')
    st.write('かがた公園')
         
-   def step-one():
+   def step1one():
      global x
      global y
      global n 
@@ -85,7 +85,7 @@ with col1:
             if 4<n :
                n=0
    #process=step-one()
-   step-one()  
+   step1one()  
         #mainp=main_process() #関数 def =することで実行される
    
    st.text(f'{name}')     
@@ -107,7 +107,7 @@ with col2:
             if 4<n :
                n=0
                
-   process=step-one()
+   process=step1one()
    #step_one():  
         #mainp=main_process() #関数 def =することで実行される
         
