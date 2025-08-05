@@ -8,9 +8,7 @@ x=int(0)
 #x=int(4)
 y=int(0)
 
-global x
-global y
-global n 
+
 
 st.title('250731streamlit')
 st.caption('町内の為のホームページです｡')
