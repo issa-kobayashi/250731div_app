@@ -107,7 +107,7 @@ with col2:
             if 4<n :
                n=0
                
-   process=step_one()
+   process=step-one()
    #step_one():  
         #mainp=main_process() #関数 def =することで実行される
         
