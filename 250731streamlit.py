@@ -71,6 +71,23 @@ with col1:
           name='IMG250514-13-02','IMG250514-13-03','IMG250514-14-04','IMG250514-14-05'
     
      return 
+   
+
+
+
+
+
+        #submit_btn=st.form_submit_button (f'切替')
+   submit_btn=st.button('切替')
+   if submit_btn:
+            n=n+1
+            st.text(f'切替番号 n= {n}')
+            if 4<n :
+               n=0
+    process=step_one()
+   #step_one():  
+        #mainp=main_process() #関数 def =することで実行される
+   
    st.text(f'{name}')     
    st.image(image1,width=400)
    st.image(image2,width=400)
