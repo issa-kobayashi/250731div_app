@@ -62,7 +62,7 @@ with col1:
           image3=Image.open('./data250731re/IMG250514-09-03.jpg') 
           image4=Image.open('./data250731re/IMG250514-13-01.jpg')  
           name='IMG250302-09-01','IMG250514-09-02','IMG250514-09-03','IMG250514-13-01'
-          
+	          
      if n==4 :
           image1=Image.open('./data250731re/IMG250514-13-02.jpg')
           image2=Image.open('./data250731re/IMG250514-13-03.jpg') 
@@ -74,7 +74,7 @@ with col1:
    
 
 
-
+	
 
 
         #submit_btn=st.form_submit_button (f'切替')
@@ -84,7 +84,7 @@ with col1:
             st.text(f'切替番号 n= {n}')
             if 4<n :
                n=0
-    process=step_one()
+   process=step_one()
    #step_one():  
         #mainp=main_process() #関数 def =することで実行される
    
