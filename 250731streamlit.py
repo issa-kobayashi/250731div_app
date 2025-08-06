@@ -113,7 +113,7 @@ with col2:
 	#submit_btn=st.form_submit_button (f'切替')
 	submit_btn=st.button('切替')
   
-        
+	st.text(f'116n= {n}')        
 	if submit_btn:
 		n=n+1
 		st.text(f'切替番号 n= {n}')
@@ -133,6 +133,6 @@ with col2:
 	# name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
 
 	st.text(f'{name}')
-        
+    st.text(f'136n= {n}')    
 	wait(1)
 
