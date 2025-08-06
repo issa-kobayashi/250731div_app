@@ -116,10 +116,10 @@ with col2:
 	st.text(f'116n= {n}')        
 	if submit_btn:
 		n=n+1
-		st.text(f'切替番号 n= {n}')
+		st.text(f'切替番号 if119n= {n}')
 	if 4<n :
 		n=0
-        st.text(f'切替番号 if122n= {n}')       
+		st.text(f'切替番号 if122n= {n}')       
 	
 	process=step1one()
 	#step_one():  
