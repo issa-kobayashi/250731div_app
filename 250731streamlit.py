@@ -78,7 +78,7 @@ with col1:
 			image4=Image.open('./data250731re/IMG250514-14-05.jpg')   
 			name='IMG250514-13-02','IMG250514-13-03','IMG250514-14-04','IMG250514-14-05'
 			st.text(f'dfn4= {n}')
-	return (image1,image2,image3,image4,name,n)
+	return 
 
 
 
