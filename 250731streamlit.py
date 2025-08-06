@@ -133,6 +133,6 @@ with col2:
 	# name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
 
 	st.text(f'{name}')
-    st.text(f'136n= {n}')    
+	st.text(f'136n= {n}')    
 	wait(1)
 
