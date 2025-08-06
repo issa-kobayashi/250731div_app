@@ -89,7 +89,7 @@ with col1:
 
 
 #submit_btn=st.form_submit_button (f'切替')
-	submit_btn=st.button('切替')
+	submit_btn=st.button('切替1')
 	if submit_btn:
 		n=n+1
 		st.text(f'切替番号 n= {n}')
@@ -111,7 +111,7 @@ with col1:
 with col2:    
         
 	#submit_btn=st.form_submit_button (f'切替')
-	submit_btn=st.button('切替')
+	submit_btn=st.button('切替2')
   
 	st.text(f'116n= {n}')        
 	if submit_btn:
