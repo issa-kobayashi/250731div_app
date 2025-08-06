@@ -58,7 +58,7 @@ with col1:
 			name='IMG250212-09-01','IMG250212-09-02','IMG250212-09-03','IMG250302-14-01'
 			st.text(f'n= {n}')
 
-		if n=3 :
+		if n==3 :
 			image1=Image.open('./data250731re/IMG250302-09-01.jpg')
 			image2=Image.open('./data250731re/IMG250514-09-02.jpg') 
 			image3=Image.open('./data250731re/IMG250514-09-03.jpg') 
@@ -66,7 +66,7 @@ with col1:
 			name='IMG250302-09-01','IMG250514-09-02','IMG250514-09-03','IMG250514-13-01'
 			st.text(f'n= {n}')
 
-		if n=4 :
+		if n==4 :
 			image1=Image.open('./data250731re/IMG250514-13-02.jpg')
 			image2=Image.open('./data250731re/IMG250514-13-03.jpg') 
 			image3=Image.open('./data250731re/IMG250514-14-04.jpg') 
