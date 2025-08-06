@@ -33,14 +33,19 @@ with col1:
 		global n 
 		#print(f'def step one ｽﾃｯﾌﾟ1の処理 y= x=: {(y),(x)}')
 		time.sleep(1)
-
-
+		global image1
+		global image2
+		global image3
+		global image4
+		global name 
+		
 		if n==0 :
+			image1=Image.open('./data250731re/IMG241103-11-01.jpg') 
 			image2=Image.open('./data250731re/IMG241103-11-02.jpg') 
 			image3=Image.open('./data250731re/IMG241103-11-03.jpg') 
 			image4=Image.open('./data250731re/IMG241103-11-04.jpg') 
 			name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
-			st.text(f'n= {n}')
+			st.text(f'df0= {n}')
           
 		if n==1 :
 			image1=Image.open('./data250731re/IMG241103-11-05.jpg')
@@ -48,7 +53,7 @@ with col1:
 			image3=Image.open('./data250731re/IMG241103-12-07.jpg') 
 			image4=Image.open('./data250731re/IMG241103-12-08.jpg') 
 			name='IMG241103-11-05','IMG241103-11-06','IMG241103-11-07','IMG241103-11-08'
-			st.text(f'n= {n}')
+			st.text(f'dfn1= {n}')
 
 		if n==2 :
 			image1=Image.open('./data250731re/IMG250212-09-01.jpg')
@@ -56,7 +61,7 @@ with col1:
 			image3=Image.open('./data250731re/IMG250212-09-03.jpg') 
 			image4=Image.open('./data250731re/IMG250302-14-01.jpg')     
 			name='IMG250212-09-01','IMG250212-09-02','IMG250212-09-03','IMG250302-14-01'
-			st.text(f'n= {n}')
+			st.text(f'dfn2= {n}')
 
 		if n==3 :
 			image1=Image.open('./data250731re/IMG250302-09-01.jpg')
@@ -64,7 +69,7 @@ with col1:
 			image3=Image.open('./data250731re/IMG250514-09-03.jpg') 
 			image4=Image.open('./data250731re/IMG250514-13-01.jpg')  
 			name='IMG250302-09-01','IMG250514-09-02','IMG250514-09-03','IMG250514-13-01'
-			st.text(f'n= {n}')
+			st.text(f'dfn3= {n}')
 
 		if n==4 :
 			image1=Image.open('./data250731re/IMG250514-13-02.jpg')
@@ -72,7 +77,10 @@ with col1:
 			image3=Image.open('./data250731re/IMG250514-14-04.jpg') 
 			image4=Image.open('./data250731re/IMG250514-14-05.jpg')   
 			name='IMG250514-13-02','IMG250514-13-03','IMG250514-14-04','IMG250514-14-05'
-			st.text(f'n= {n}')
+			st.text(f'dfn4= {n}')
+	return (image1,image2,image3,image4,name,n)
+
+
 
    
 
@@ -92,7 +100,7 @@ with col1:
 #process=step1one()
 	step1one()
 		#mainp=main_process() #関数 def =することで実行される
-	st.text(f'n= {n}')
+	st.text(f'103n= {n}')
 	st.text(f'{name}')     
 	st.image(image1,width=400)
 	st.image(image2,width=400)
