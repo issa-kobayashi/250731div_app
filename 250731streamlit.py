@@ -95,7 +95,7 @@ with col1:
 		st.text(f'切替番号 n= {n}')
 	if 4<n :
 		n=0
-		st.text(f'切替番号 n= {n}')
+		st.text(f'切替番号 if98n= {n}')
    
 #process=step1one()
 	step1one()
@@ -119,7 +119,8 @@ with col2:
 		st.text(f'切替番号 n= {n}')
 	if 4<n :
 		n=0
-               
+        st.text(f'切替番号 if122n= {n}')       
+	
 	process=step1one()
 	#step_one():  
 	#mainp=main_process() #関数 def =することで実行される
