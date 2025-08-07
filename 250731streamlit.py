@@ -92,10 +92,10 @@ with col1:
 	submit_btn1=st.button('切替1')
 	if submit_btn1:
 		n=n+1
-		st.text(f'切替番号 n= {n}')
-	if 4<n :
-		n=0
-		st.text(f'切替番号 if98n= {n}')
+		st.text(f'切替番号 95n= {n}')
+		if 4<n :
+			n=0
+			st.text(f'切替番号 if98n= {n}')
    
 #process=step1one()
 	step1one()
@@ -117,9 +117,9 @@ with col2:
 	if submit_btn2:
 		n=n+1
 		st.text(f'切替番号 if119n= {n}')
-	if 4<n :
-		n=0
-		st.text(f'切替番号 if122n= {n}')       
+		if 4<n :
+			n=0
+			st.text(f'切替番号 if122n= {n}')       
 	
 	process=step1one()
 	#step_one():  
