@@ -4,31 +4,8 @@ from PIL import Image
 import time
 import datetime
 
-if 4<n :
-	n=0
-if 	n<0 :
-	n=0
-
-#if n<>0 & n<>1 & n<>2 & n<>3 & n<>4 :
-#   n=0
-
-if n==0:
-	n=0
-elif n==1:
-	n=1
-elif n==2:
-	n=2
-elif n==3:
-	n=3
-elif n==4:
-	n=4
-else:
-	n=0
-	
-st.text(f'切替番号 if28n= {n}')
 
 x=0
-#x=int(4)
 y=0
 
 
@@ -61,6 +38,30 @@ with col1:
 		global image3
 		global image4
 		global name 
+		
+		if 4<n :
+			n=0
+		if 	n<0 :
+			n=0
+
+		#if n<>0 & n<>1 & n<>2 & n<>3 & n<>4 :
+		#   n=0
+
+		if n==0:
+			n=0
+		elif n==1:
+			n=1
+		elif n==2:
+			n=2
+		elif n==3:
+			n=3
+			elif n==4:
+			n=4
+		else:
+			n=0
+		
+		
+		
 		
 		if n==0 :
 			image1=Image.open('./data250731re/IMG241103-11-01.jpg') 
