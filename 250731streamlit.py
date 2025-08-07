@@ -6,8 +6,8 @@ import datetime
 
 n=int(n)
 if 4<n :
-	n=0
-	st.text(f'切替番号 if9n= {n}')
+	n=int(0)
+st.text(f'切替番号 if10n= {n}')
 
 x=int(x)
 #x=int(4)
