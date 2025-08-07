@@ -55,7 +55,7 @@ with col1:
 			n=2
 		elif n==3:
 			n=3
-			elif n==4:
+		elif n==4:
 			n=4
 		else:
 			n=0
