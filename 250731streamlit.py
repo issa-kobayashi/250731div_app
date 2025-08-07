@@ -3,10 +3,15 @@ from PIL import Image
 # imageﾊpip install pillowｶﾞ必要 pil
 import time
 import datetime
-n=int(0)
-x=int(0)
+
+n=int(n)
+if 4<n :
+	n=0
+	st.text(f'切替番号 if9n= {n}')
+
+x=int(x)
 #x=int(4)
-y=int(0)
+y=int(y)
 
 
 
