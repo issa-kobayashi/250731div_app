@@ -4,14 +4,17 @@ from PIL import Image
 import time
 import datetime
 
-n=int(n)
 if 4<n :
-	n=int(0)
-st.text(f'切替番号 if10n= {n}')
+	n=0
+if 	n<0 :
+	n=0
+if 0<>n & 1<>n & 2<>n & 3<>n & 4<>n
+   n=0
+st.text(f'切替番号 if13n= {n}')
 
-x=int(x)
+x=0
 #x=int(4)
-y=int(y)
+y=0
 
 
 
