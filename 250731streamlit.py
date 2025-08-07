@@ -14,18 +14,18 @@ if 	n<0 :
 
 if n==0:
 	n=0
-	elif n==1:
-		n=1
-	elif n==2:
-		n=2
-	elif n==3:
-		n=3
-	elif n==4:
-		n=4
-	else:
-		n=0
+elif n==1:
+	n=1
+elif n==2:
+	n=2
+elif n==3:
+	n=3
+elif n==4:
+	n=4
+else:
+	n=0
 	
-st.text(f'切替番号 if13n= {n}')
+st.text(f'切替番号 if28n= {n}')
 
 x=0
 #x=int(4)
@@ -115,15 +115,15 @@ with col1:
 	submit_btn1=st.button('切替1')
 	if submit_btn1:
 		n=n+1
-		st.text(f'切替番号 95n= {n}')
+		st.text(f'切替番号 118n= {n}')
 		if 4<n :
 			n=0
-			st.text(f'切替番号 if98n= {n}')
+			st.text(f'切替番号 if121n= {n}')
    
 #process=step1one()
 	step1one()
 		#mainp=main_process() #関数 def =することで実行される
-	st.text(f'103n= {n}')
+	st.text(f'126n= {n}')
 	st.text(f'{name}')     
 	st.image(image1,width=400)
 	st.image(image2,width=400)
@@ -139,10 +139,10 @@ with col2:
 	st.text(f'116n= {n}')        
 	if submit_btn2:
 		n=n+1
-		st.text(f'切替番号 if119n= {n}')
+		st.text(f'切替番号 if142n= {n}')
 		if 4<n :
 			n=0
-			st.text(f'切替番号 if122n= {n}')       
+			st.text(f'切替番号 if145n= {n}')       
 	
 	process=step1one()
 	#step_one():  
@@ -157,6 +157,6 @@ with col2:
 	# name='IMG241103-11-01','IMG241103-11-02','IMG241103-11-03','IMG241103-11-04'
 
 	st.text(f'{name}')
-	st.text(f'137n= {n}')    
+	st.text(f'160n= {n}')    
 	time.sleep(1)
 
